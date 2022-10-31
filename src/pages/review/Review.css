@@ -1,0 +1,11 @@
+.Review {
+  text-align: center;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Review-comments {
+  padding: 8px;
+}

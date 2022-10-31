@@ -1,0 +1,99 @@
+.Products {
+  text-align: center;
+  padding: 16px;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.Action-buttons {
+  padding: 16px;
+  text-align: left;
+  
+ 
+}
+
+.Action-buttons button
+{
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #001339;
+  border-radius: 4px;
+  border: 1px solid #7fc0e1;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.Products-button {
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #282c34;
+  border-radius: 4px;
+  border: 1px solid #cdcdcd;
+  box-shadow: none;
+  cursor: pointer;
+  margin-right: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.Product-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+}
+
+.Product {
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 8px;
+  border: 1px solid #7fc0e1;
+}
+
+.Product-img-container {
+  height: 300px;
+  overflow: hidden;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.Product-img-container img {
+  max-width: 100%;
+}
+
+.Product-details {
+  padding: 8px;
+  height: 110px;
+}
+
+.Product-details h4 {
+  margin: 0px;
+}
+
+.Product-details p {
+  white-space: nowrap;
+  margin: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Add-card button
+{
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #001339;
+  border-radius: 4px;
+  border: 1px solid #7fc0e1;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}

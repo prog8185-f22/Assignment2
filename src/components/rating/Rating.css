@@ -1,0 +1,13 @@
+.Rating-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 32px;
+}
+.Rating-on {
+    color: #FFD700;
+}
+.Rating-off {
+    color: #ccc;
+}
