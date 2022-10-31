@@ -1,0 +1,123 @@
+.Cart-product {
+  width: 100%;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+
+.Action-buttons {
+  padding: 16px;
+  text-align: left;
+  display: flex;
+}
+
+.Cart-details {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.Cart-products {
+  width: 50%;
+  padding-right: 8px;
+}
+
+.Cart-summary-container {
+  width: 50%;
+  padding-left: 8px;
+}
+
+.Products-button {
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #282c34;
+  border-radius: 4px;
+  border: 1px solid #cdcdcd;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.Products-button.Products-remove-button {
+  color: #fff;
+  padding: 8px 16px;
+  background-color: #001339;
+  border-radius: 4px;
+  border: 1px solid #7fc0e1;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+  margin-left: 16px;
+}
+
+.Cart-product-img-container {
+  width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.Cart-product-img-container img {
+  width: 100%;
+}
+
+.Cart-product-details {
+  padding: 8px;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+}
+
+.Cart-product-details h4 {
+  margin: 0px;
+}
+
+.Cart-product-details p {
+  white-space: nowrap;
+  margin: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.Cart-summary {
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+}
+
+.Cart-summary .Action-buttons {
+  justify-content: flex-end;
+}
+
+.Cart-table {
+  width: 100%;
+  padding: 16px;
+}
+
+.Cart-table tr td, .Cart-table tr th {
+  text-align: right;
+}
+
+.Cart-table tr th {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.Cart-table tr td {
+  padding: 8px 0;
+}
+
+.Cart-table tr td:first-child, .Cart-table tr th:first-child {
+  text-align: left;
+}
+
+.Cart-table tbody tr:last-child td {
+  font-weight: bold;
+}
